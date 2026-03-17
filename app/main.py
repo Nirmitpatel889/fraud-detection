@@ -6,6 +6,8 @@ Run: streamlit run app/main.py
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
+from download_data import download_if_needed
+download_if_needed()
 
 import numpy as np
 import pandas as pd
