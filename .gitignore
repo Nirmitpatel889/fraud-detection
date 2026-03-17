@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+data/creditcard.csv
+models/*.pkl
+.DS_Store
+.pytest_cache/
